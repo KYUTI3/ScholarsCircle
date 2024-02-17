@@ -3,7 +3,8 @@ import Image from 'next/image'
 import github from '/assets/github.svg'
 
 const Footer = () => {
-<div className="items-center " > 
+return(
+ <div className="items-center " > 
     <div> 
      ScholarsCircle © 2024
     </div>
@@ -11,13 +12,14 @@ const Footer = () => {
      Made by Luis Cardenas, Anna Katkova, Kaelyn Tan & ???
     </div>
     <Image
-     src={github.svg}
+     src={github}
      alt="Our GitHub Repository" 
-    />
-</div>
+     width={90}
+     height={90}
+     />
+  </div>
 
+ );
+};
 
-
-
-
-}
+export default Footer;
