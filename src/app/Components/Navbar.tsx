@@ -1,21 +1,19 @@
 import React from 'react'
 
 const Footer = () => {
-    <div className="items-center " > 
+return(
+    <div className="items-center space-x-2 mt-2 top-0 place-content-center" > 
         <div> 
-         ScholarsCircle © 2024
+         Home
         </div>
         <div> 
-         Made by Luis Cardenas, Anna Katkova, Kaelyn Tan & ???
+         Login
         </div>
-        <Image
-         src={github.svg}
-         alt="Our GitHub Repository" 
-         width={90}
-         height={90}
-        />
+        <div> 
+         Profile
+        </div>
     </div>
+ )
+}
     
-    }
-    
-    export default Footer;
+export default Footer;

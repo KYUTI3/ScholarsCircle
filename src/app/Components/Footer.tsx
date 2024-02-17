@@ -4,7 +4,7 @@ import github from '/assets/github.svg'
 
 const Footer = () => {
 return(
- <div className="items-center " > 
+ <div className="items-center bottom-0 bg-stone-400 " > 
     <div> 
      ScholarsCircle © 2024
     </div>
