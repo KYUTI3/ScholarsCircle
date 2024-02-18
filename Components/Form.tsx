@@ -70,7 +70,6 @@ return(
             onChange={takeChange}
           />
         </div>
-
     <div className="bg-amber-300 justify-items-center"> 
      <button> 
         Submit

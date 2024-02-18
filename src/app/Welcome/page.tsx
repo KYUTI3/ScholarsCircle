@@ -2,6 +2,6 @@ import React from 'react'
 import Form from '../../../Components/Form'
 
 
-export default function Page() {
-    return <div> <Form /> </div>
+export default function Welcome() {
+    return <div> hello </div>
 }
