@@ -4,7 +4,7 @@ import favicon from '/public/favicon.ico'
 
 const Hero = () => {
 return(
-<div className="flex flex-col items-center space-y-1">
+<div className="flex flex-col p-4 items-center space-y-1 text-gray-600 text-wrap border-2 rounded-md">
   <div className="hover:scale-80  ">
   <Image
     src={favicon}
@@ -13,14 +13,14 @@ return(
     height={120}
   />
   </div>
-  <div className="text-center space-y-1.5">
-   <div>
+  <div className="text-center space-y-1.5 subpixel-antialiased">
+   <div className="font-bold">
     Welcome to ScholarsCircle!
    </div>
    <div>
     The Social Circle for Scholars Everywhere!
    </div>
-   <div className="flex flex-row space-x-2">
+   <div className=" mt-auto flex flex-row space-x-2 justify-items-center">
    <button> Join Us! </button>
    <button> Join Us! </button>
    </div>
