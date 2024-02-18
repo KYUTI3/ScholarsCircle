@@ -13,8 +13,10 @@ return(
             <Input name="lastName" placeholder="Type your last name here!" />
 
             <Input name="Email" placeholder="Type your Email here!" />
+
+            <Input name="Password" placeholder="Type your Password here!" />
         </div>
-    <div className="bg-amber-300"> 
+    <div className="bg-amber-300 justify-items-center"> 
      <button> 
         Submit
      </button>
@@ -23,3 +25,5 @@ return(
     </div>
  )
 }
+
+export default Form;

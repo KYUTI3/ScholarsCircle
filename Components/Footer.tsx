@@ -13,7 +13,7 @@ return(
      ScholarsCircle © 2024
     </div>
     <div> 
-     Made by Luis Cardenas, Anna Katkova, Kaelyn Tan & Jerry Yong
+     Made by: Luis Cardenas, Anna Katkova, Kaelyn Tan & Jerry Yong
     </div>
    <div className="flex justify-center">
     <Image

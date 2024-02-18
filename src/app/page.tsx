@@ -17,7 +17,7 @@ export default function Home() {
     <div className=" transform mt-auto -translate-y-[140px] bg-amber-300 border-solid max-w-96 translate-x-[525px] "> 
      <Hero />
     </div>
-    <div className="fixed right-[630px] "> 
+    <div className="fixed right-[630px] font-sans"> 
       <Navbar />
     </div>
 
