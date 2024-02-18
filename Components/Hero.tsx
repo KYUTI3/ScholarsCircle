@@ -20,10 +20,6 @@ return(
    <div>
     The Social Circle for Scholars Everywhere!
    </div>
-   <div className=" mt-auto flex flex-row space-x-2 justify-items-center">
-   <button> Join Us! </button>
-   <button> Join Us! </button>
-   </div>
   </div>
 </div>
  )

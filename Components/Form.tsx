@@ -5,7 +5,7 @@ import { Input } from 'postcss'
 
 const Form = (Input) => {
 return(
-    <div className="absolute self-center bg-blue-900 ">
+    <div className="absolute self-center bg-blue-900  text-gray-800">
      <form>
         <div className="">
             <Input name="firstName" placeholder="Type your first name here!" />
@@ -14,7 +14,7 @@ return(
 
             <Input name="Email" placeholder="Type your Email here!" />
         </div>
-    <div className="bg-amber-300 text-gray-800"> 
+    <div className="bg-amber-300"> 
      <button> 
         Submit
      </button>
