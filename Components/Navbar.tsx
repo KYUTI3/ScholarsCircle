@@ -11,7 +11,7 @@ return(
          <Link href="/">About</Link>
         </div>
         <div className="text-gray-800 hover:text-cyan-500"> 
-         <Link href="/src/app/welcome">Profile</Link>
+         <Link href="/welcome">Profile</Link>
         </div>
     </div>
  )
