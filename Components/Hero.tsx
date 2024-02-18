@@ -4,8 +4,8 @@ import favicon from '/public/favicon.ico'
 
 const Hero = () => {
 return(
-<div className="flex flex-col p-4 items-center space-y-1 text-gray-600 text-wrap border-2 rounded-md">
-  <div className="hover:scale-80  ">
+<div className="flex flex-col p-4 items-center space-y-1 text-gray-800 text-wrap border-2 rounded-md">
+  <div className="hover:scale-80">
   <Image
     src={favicon}
     alt="Our Logo!"
