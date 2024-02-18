@@ -8,7 +8,7 @@ return(
          Home
         </div>
         <div> 
-         Login
+         About 
         </div>
         <div> 
          Profile

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Footer from "../../Components/Footer";
 import About from "../../Components/About";
+import Hero from "../../Components/Hero";
+import favicon from '/app/favicon.ico'
+
 
 export default function Home() {
   return (
@@ -11,8 +14,10 @@ export default function Home() {
     <div className='translate-y-[360px] size-50 w-50'> 
       <About /> 
     </div>
+    <div className="top-5"> 
+     <Hero />
+    </div>
 
-    
     </main>
   );
 }
