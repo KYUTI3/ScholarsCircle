@@ -1,7 +1,9 @@
+'use client'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { Input } from 'postcss'
+import Link from 'next/link'
 
 
 interface FormData {
@@ -71,8 +73,9 @@ return(
           />
         </div>
     <div className="bg-amber-300 justify-items-center"> 
+
      <button> 
-        Submit
+      <Link href="/Profile">Submit</Link>
      </button>
     </div>
      </form>
