@@ -7,7 +7,7 @@ return(
     <div className="font-bold text-[16px] underline-offset-2">
      ScholarCircle Account Information 
     </div>
-    <div className=""> 
+    <div className="text-[12px]"> 
     <div>
      First Name   
     </div>

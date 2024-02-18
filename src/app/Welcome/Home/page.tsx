@@ -1,7 +1,7 @@
 import React from 'react'
-import Map from '../../../../Components/Map'
+import Profile from '../../../../Components/Profile'
 
 
 export default function Home() {
-    return <div>  </div>
+    return <div> <Profile /> </div>
 }
