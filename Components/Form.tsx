@@ -29,11 +29,11 @@ const Form: React.FC = () => {
   const takeSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
-    router.push('/Home');
+    router.push('/home');
   };
 
   return (
-    <div className="flexflex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
      <div className="self-center bg-blue-900 text-gray-800 p-8 rounded-lg">
       <form onSubmit={takeSubmit} className="space-y-4">
         <div>
@@ -70,8 +70,8 @@ const Form: React.FC = () => {
             className="px-4 py-2 rounded-md"
           />
         </div>
-        <div className="justify-items-center px-4 py-2 rounded-md bg-blue-500 text-white">
-            <Link href="/">Submit</Link>
+        <div className="bg-amber-300 justify-items-center">
+          <button type="submit" className="px-4 py-2 rounded-md bg-blue-500 text-white">Submit</button>
         </div>
        </form>
       </div>
