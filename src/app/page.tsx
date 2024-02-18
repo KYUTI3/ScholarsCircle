@@ -14,7 +14,7 @@ export default function Home() {
     <div className='translate-y-[360px] size-50 w-50'> 
       <About /> 
     </div>
-    <div className="top-5"> 
+    <div className="mt-auto -translate-y-[135px]"> 
      <Hero />
     </div>
 

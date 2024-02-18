@@ -4,8 +4,8 @@ import favicon from '/public/favicon.ico'
 
 const Hero = () => {
 return(
-<div className="space-y-1">
-  <div className="hover:scale-80 ">
+<div className="flex flex-col items-center space-y-1">
+  <div className="hover:scale-80  ">
   <Image
     src={favicon}
     alt="Our Logo!"
@@ -13,9 +13,9 @@ return(
     height={120}
   />
   </div>
-  <div>
+  <div className="text-center space-y-1.5">
    <div>
-    Welcome to Scholars Circle!
+    Welcome to ScholarsCircle!
    </div>
    <div>
     The Social Circle for Scholars Everywhere!
