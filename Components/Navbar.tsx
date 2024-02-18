@@ -8,10 +8,10 @@ return(
          <Link href="/app/page.tsx">Home</Link>
         </div>
         <div className="text-gray-800 hover:text-cyan-500"> 
-        <Link href="/app/page.tsx">About</Link>
+         <Link href="/">About</Link>
         </div>
         <div className="text-gray-800 hover:text-cyan-500"> 
-        <Link href="/app/Welcome/page.tsx">Profile</Link>
+         <Link href="/src/app/welcome">Profile</Link>
         </div>
     </div>
  )

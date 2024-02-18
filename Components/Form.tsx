@@ -3,19 +3,74 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { Input } from 'postcss'
 
-const Form = (Input) => {
+
+interface FormData {
+    firstName: string;
+    lastName: string;
+    email: string;
+    password: string;
+  }
+  
+  const Form: React.FC = () => {
+    const router = useRouter();
+    const [formData, setFormData] = useState<FormData>({
+      firstName: '',
+      lastName: '',
+      email: '',
+      password: '',
+    });
+  
+    const takeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      setFormData({
+        ...formData,
+        [e.target.name]: e.target.value,
+      });
+    };
+  
+    const takeSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      console.log(formData);
+      router.push('/success');
+    };
+
+
 return(
-    <div className="absolute self-center bg-blue-900  text-gray-800">
-     <form>
+<div className="absolute self-center bg-blue-900  text-gray-800">
+     <form onSubmit={takeSubmit}>
         <div className="">
-            <Input name="firstName" placeholder="Type your first name here!" />
+          <input
+            type="text"
+            name="firstName"
+            value={formData.firstName}
+            placeholder="Type your first name here!"
+            onChange={takeChange}
+          />
 
-            <Input name="lastName" placeholder="Type your last name here!" />
+          <input
+            type="text"
+            name="lastName"
+            value={formData.lastName}
+            placeholder="Type your last name here!"
+            onChange={takeChange}
+          />
 
-            <Input name="Email" placeholder="Type your Email here!" />
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            placeholder="Type your email here!"
+            onChange={takeChange}
+          />
 
-            <Input name="Password" placeholder="Type your Password here!" />
+          <input
+            type="password"
+            name="password"
+            value={formData.password}
+            placeholder="Type your password here!"
+            onChange={takeChange}
+          />
         </div>
+
     <div className="bg-amber-300 justify-items-center"> 
      <button> 
         Submit
