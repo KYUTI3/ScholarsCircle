@@ -2,13 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import github from '/public/github.svg'
+import website from '/public/website.svg'
 
 
 const Footer = () => {
 return(
- <div className="fixed flex bottom-0 left-0 w-full bg-gray-300 py-2 px-4 justify-center items-center "> 
+ <div className="fixed flex bottom-0 left-0 w-full bg-gray-300 py-2 px-4 justify-center items-center size-20 "> 
    <div className="flex flex-col text-center space-y-2"> 
-    <div> 
+    <div className="font-bold"> 
      ScholarsCircle © 2024
     </div>
     <div> 
@@ -18,14 +19,14 @@ return(
     <Image
      src={github}
      alt="Our GitHub Repository" 
-     width={60}
-     height={60}
+     width={50}
+     height={50}
      />
      <Image
-     src={github}
-     alt="Our GitHub Repository" 
-     width={60}
-     height={60}
+     src={website}
+     alt="Our Landing Page!" 
+     width={50}
+     height={50}
      />
    </div>
   </div>   
