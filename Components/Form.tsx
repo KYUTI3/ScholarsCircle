@@ -73,9 +73,8 @@ return(
           />
         </div>
     <div className="bg-amber-300 justify-items-center"> 
-
      <button> 
-      <Link href="/Profile">Submit</Link>
+      <Link href="/ProfilePage">Submit</Link>
      </button>
     </div>
      </form>
