@@ -4,7 +4,6 @@ import Link from 'next/link'
 import github from '/public/github.svg'
 import website from '/public/website.svg'
 
-
 const Footer = () => {
 return(
  <div className="fixed flex bottom-0 left-0 w-full bg-gray-300 py-2 px-4 justify-center items-center size-10 "> 
@@ -16,18 +15,26 @@ return(
      Made by: Luis Cardenas, Anna Katkova, Kaelyn Tan & Jerry Yong
     </div>
    <div className="flex justify-center">
-    <Image
-     src={github}
-     alt="Our GitHub Repository" 
-     width={50}
-     height={50}
-     />
+   <div>  
+   <Link href="https://github.com/KYUTI3/ScholarsCircle">
+     <Image
+      src={github}
+      alt="Our GitHub Repository" 
+      width={50}
+      height={50}
+      />
+      </Link>
+    </div> 
+     <div> 
+    <Link href="">
      <Image
      src={website}
-     alt="Our Landing Page!" 
+     alt="Our Email!" 
      width={50}
      height={50}
      />
+     </Link>
+     </div>
    </div>
   </div>   
 </div>
