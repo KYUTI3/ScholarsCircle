@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Footer from "../../components/Footer";
-import About from "../../components/About";
-import Hero from "../../components/Hero";
-import Navbar from '../../components/Navbar'
+import Footer from "../../Components/Footer";
+import About from "../../Components/About";
+import Hero from "../../Components/Hero";
+import Navbar from '../../Components/Navbar'
 import favicon from '/app/favicon.ico'
 
 export default function Home() {
