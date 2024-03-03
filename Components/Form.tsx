@@ -29,7 +29,7 @@ const Form: React.FC = () => {
   const takeSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
-    router.push('/Home');
+    router.push('/HomePage');
   };
 
 return (

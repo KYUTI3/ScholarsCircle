@@ -6,6 +6,5 @@ export default function Welcome() {
         <div className=""> 
             <Form /> 
         </div>
-
     );
 }
