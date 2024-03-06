@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Profile from "../../../Components/Profile";
 
 
 export default function RootLayout({
