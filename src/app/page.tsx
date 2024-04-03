@@ -3,6 +3,7 @@ import Footer from "../../Components/Footer";
 import About from "../../Components/About";
 import Hero from "../../Components/Hero";
 import Navbar from '../../Components/Navbar'
+import Button from "../../Components/Button";
 import favicon from '/app/favicon.ico'
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
         <Hero />
       </div>
         <About />
+      <div>
+        <Button />
+      </div>
        <div className="fixed bottom-0"> 
         <Footer />
        </div>

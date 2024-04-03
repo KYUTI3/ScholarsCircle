@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Profile = () => {
 return(
 <div className="flex flex-col space-y-4 bg-slate-600 border rounded-md justify-items-center">
