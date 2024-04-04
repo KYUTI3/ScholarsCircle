@@ -6,7 +6,7 @@ import website from '/public/website.svg'
 
 const Footer = () => {
 return(
- <div className="fixed flex bottom-0 left-0 w-full bg-gray-300 py-2 px-4 justify-center items-center size-10 "> 
+ <div className="fixed flex bottom-0 left-0 w-full bg-gray-300 py-1 px-4 justify-center items-center text-[14px]"> 
    <div className="flex flex-col text-center space-y-2"> 
     <div className="font-bold"> 
      ScholarsCircle © 2024

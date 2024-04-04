@@ -12,12 +12,12 @@ export default function Home() {
       <div className="fixed top-0"> 
        <Navbar />
       </div>
-      <div className="flex flex-col items-center space-y-10">
+      <div className="flex flex-col items-center space-y-6">
       <div className="bg-amber-300"> 
         <Hero />
       </div>
         <About />
-      <div>
+      <div className="-translate-y-3">
         <Button />
       </div>
        <div className="fixed bottom-0"> 
