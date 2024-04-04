@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
       </div>
         <About />
-      <div className="-translate-y-3">
+      <div className="relative -translate-y-3">
         <Button />
       </div>
        <div className="fixed bottom-0"> 
