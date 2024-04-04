@@ -4,7 +4,7 @@ import Profile from '../../../Components/Profile'
 
 export default function Home() {
     return( 
-        <div className="fixed justify-center">
+        <div className="items-center">
             <Profile />
         </div>
     );
